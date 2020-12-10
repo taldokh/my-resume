@@ -34,7 +34,7 @@ export default {
   position: relative;
   font-weight: 200;
   font-size: 8em;
-  height: 50px;
+  height: 150px;
 }
 
 .ml9 .text-wrapper {

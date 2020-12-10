@@ -1,23 +1,33 @@
 <template>
   <v-app id="app">
-    <my-name ref="myName" />
-    <skill-card />
+    <v-container fluid>
+      <v-row>
+        <v-col>
+          <my-name ref="myName" />
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col>
+          <skills-cards />
+        </v-col>
+      </v-row>
+    </v-container>
   </v-app>
 </template>
 
 <script>
+import SkillsCards from "./components/SkillsCards.vue";
 import { gsap } from "gsap";
 import MyName from "./components/MyName.vue";
-import SkillCard from "./components/skillCard.vue";
+
 export default {
   name: "App",
   components: {
     MyName,
-    SkillCard,
+    SkillsCards,
   },
 
   mounted() {
-    console.log(this.$refs);
     gsap.to(this.$refs["myName"].$el, {
       duration: 0.5,
       x: -500,
