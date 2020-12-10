@@ -1,28 +1,38 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app id="app">
+    <my-name ref="myName" />
+    <skill-card />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import { gsap } from "gsap";
+import MyName from "./components/MyName.vue";
+import SkillCard from "./components/skillCard.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MyName,
+    SkillCard,
+  },
+
+  mounted() {
+    console.log(this.$refs);
+    gsap.to(this.$refs["myName"].$el, {
+      duration: 0.5,
+      x: -500,
+    });
+  },
+};
 </script>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #141b2e;
+  /* background-color: #141b2e; */
 }
 </style>
