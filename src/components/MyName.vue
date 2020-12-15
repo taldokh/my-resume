@@ -33,7 +33,7 @@ export default {
 .ml9 {
   position: relative;
   font-weight: 200;
-  font-size: 8em;
+  font-size: 10em;
   height: 150px;
 }
 
