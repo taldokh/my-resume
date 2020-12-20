@@ -120,7 +120,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #092880;
+  color: #000000;
   /* background-color: #141b2e; */
 }
 
