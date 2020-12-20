@@ -60,17 +60,17 @@ export default {
         {
           name: "Java",
           imgFileName: "java",
-          desc: "I have learned HTML in highSchool",
+          desc: "I have learned Java in highSchool",
         },
         {
           name: "Python",
           imgFileName: "python",
-          desc: "I have learned HTML in highSchool",
+          desc: "I have learned Python in highSchool",
         },
         {
           name: "C#",
           imgFileName: "cSharp",
-          desc: "I have learned HTML in highSchool",
+          desc: "I have learned c sharp in highSchool",
         },
         {
           name: "CSS",
@@ -80,12 +80,12 @@ export default {
         {
           name: "MongoDB",
           imgFileName: "mongoDB",
-          desc: "I have learned HTML in highSchool",
+          desc: "I have learned MongoDB in highSchool",
         },
         {
           name: "Spring",
           imgFileName: "spring",
-          desc: "I have learned HTML in highSchool",
+          desc: "I have learned Spring in highSchool",
         },
       ],
     };
@@ -101,7 +101,7 @@ export default {
     gsap.from(".card", {
       scrollTrigger: {
         trigger: ".card",
-        start: "top center",
+        start: "center center",
       },
       rotationY: 180,
     });
@@ -120,7 +120,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #092880;
+  color: #000000;
   /* background-color: #141b2e; */
 }
 
