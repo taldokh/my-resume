@@ -37,7 +37,8 @@ export default {
         {
           name: "Vue JS",
           imgFileName: "vue",
-          desc: "Vue.js is the first SPA framework I have learned and masterd",
+          desc:
+            "Vue.js is the first and main SPA framework I have learned and masterd",
         },
         {
           name: "Flutter",
@@ -50,42 +51,42 @@ export default {
         {
           name: "HTML",
           imgFileName: "html",
-          desc: "I have learned HTML in highSchool",
+          desc: "",
         },
         {
           name: "JavaScript",
           imgFileName: "javaScript",
-          desc: "I have learned JS in highSchool",
+          desc: "",
         },
         {
           name: "Java",
           imgFileName: "java",
-          desc: "I have learned Java in highSchool",
+          desc: "",
         },
         {
           name: "Python",
           imgFileName: "python",
-          desc: "I have learned Python in highSchool",
+          desc: "",
         },
         {
           name: "C#",
           imgFileName: "cSharp",
-          desc: "I have learned c sharp in highSchool",
+          desc: "",
         },
         {
           name: "CSS",
           imgFileName: "css",
-          desc: "I have learned CSS in highSchool",
+          desc: "",
         },
         {
           name: "MongoDB",
           imgFileName: "mongoDB",
-          desc: "I have learned MongoDB in highSchool",
+          desc: "",
         },
         {
           name: "Spring",
           imgFileName: "spring",
-          desc: "I have learned Spring in highSchool",
+          desc: "",
         },
       ],
     };
@@ -126,6 +127,8 @@ export default {
 
 .name-container {
   background-image: url("./assets/illustrations/freelancer.svg");
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
   width: 100vw;
 }
