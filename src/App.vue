@@ -128,7 +128,7 @@ export default {
 .name-container {
   background-image: url("./assets/illustrations/freelancer.svg");
   background-size: cover;
-  background-position: center center;
+  background-position: right;
   height: 100vh;
   width: 100vw;
 }
